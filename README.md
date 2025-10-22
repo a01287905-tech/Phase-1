@@ -9,15 +9,6 @@ Initialize Project: Fill out personal information
 import pandas as pd
 import os
 
-# Get the directory where the script is located
-script_dir = os.path.dirname(os.path.abspath(__file__))
-# Construct the full path to the CSV file
-csv_path = os.path.join(script_dir, 'teachers.csv')
-
-# Load teachers data from CSV file
-teachers_df = pd.read_csv(csv_path)
-# Convert column names to lowercase for consistency
-teachers_df.columns = teachers_df.columns.str.lower()
 
 print("Hello, Welcome to Educonnect!")
 print("We are excited to help you connect with tutors and students.")
