@@ -317,8 +317,7 @@ elif subject == 'history':
 #History Tips
         elif choice == "6":
             print("History Tips:")
-            tips = [
-            "Create timelines to visualize historical events and their relationships.",
-            "Use mnemonic devices to remember key dates and figures.",
-            "Engage with multiple sources to gain a well-rounded understanding of historical topics.",      
-            ]
+            print("Create timelines to visualize historical events and their relationships.")
+            print("Use mnemonic devices to remember key dates and figures.")
+            print("Engage with multiple sources to gain a well-rounded understanding of historical topics.") 
+            
