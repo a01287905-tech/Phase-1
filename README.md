@@ -15,5 +15,11 @@ General exam preparation resources.
 
 The app is designed to be user-friendly and inclusive, helping students of all levels gain confidence in their studies. Whether a student is struggling with a particular topic or looking for ways to improve their grades, EDUCONNECT is here to make learning more approachable and effective.
 
+HOW TO USE:
+
+Initialize the program, the program will ask a brief personal info
+Then to choose what topic you want help with: Math, Biology or History
+Depending on what subject you choose, with the Pandas Library, the code will provide a table with tutors and their email
+Then on the subject, there will be the topics and you can choose and/or ask for tips on how to study it
 
 
