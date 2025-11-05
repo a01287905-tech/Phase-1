@@ -17,9 +17,15 @@ The app is designed to be user-friendly and inclusive, helping students of all l
 
 HOW TO USE:
 
-Initialize the program, the program will ask a brief personal info
-Then to choose what topic you want help with: Math, Biology or History
-Depending on what subject you choose, with the Pandas Library, the code will provide a table with tutors and their email
-Then on the subject, there will be the topics and you can choose and/or ask for tips on how to study it
+1. Initialize the program
+The program will ask the user brief personal information such as name, age and email.
+2. Subejct Selection: Math, Biology or History
+User will choose the topic they want help with.
+  If user chooses math, exapmles like Derivatives, Trigonometry, Trigonometic identites will be provided. (Then user can practice)
+  If user chooses history, a general histroy timeline will be provided.
+  If user chooses biology, the user can choose from the topics prvided and have a general concept.
+Based on the Subject, the program will provide general information, with examples to provide help for the students.
+5. Tutors and Tutoring
+Depending on what subject you choose, with the Pandas Library, the code will provide a table with tutors and their email.
 
 
