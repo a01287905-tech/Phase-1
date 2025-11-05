@@ -64,7 +64,7 @@ if subject == "math":
     print("You chose Math! Let's get started.")
     # Show the math topic menu only for Math
     print("Great! Let's start with a math question, choose a topic or math Tips.")
-    print("1. Derivatives")
+    print("1. Derivatives") 
     print("2. Limits")
     print("3. Trig Identities")
     print("4. Basic Trigonometry")
@@ -91,6 +91,7 @@ if subject == "math":
 
             # Conditionals to perform operations
             if choice == "1":
+                print("Derivates are a concept from calculus that shows the rate of change for a function, so an example would be: The radius of a circle is incrasing at a arate of 3 centimeters per minute, find the rate of change of the area when r=6cm. For this you would have to use the formula of the Area of a circle then use implicit differentiation, isolating and substituting. 
                 print("The power rule: the derivative of x^n is n*x^(n-1). (n is a constant)")
                 print("Example: If f(x) = 3x^2, then f'(x) = 6x.")
                 print("The derivative of a constant is 0.")
@@ -98,11 +99,13 @@ if subject == "math":
                 print("The derivative of ln(x) is 1/x.")
                 print("Example: If f(x) = ln(x), then f'(x) = 1/x.")
             elif choice == "2":
+                print("Limits are a basic concept in calculus that explain the limit a fnction has when aproching a value. For example f(x) = x + 2 when x aproches 3.
                 print(f"The limit of a function as x approaches a value is the value that the function approaches.")
                 print("Example: lim(x→2) (x^2 - 4)/(x - 2) = 4")
                 print("If the limit does not exist, it may be due to a discontinuity or an infinite limit.")
                 print("Example: lim(x→0) 1/x does not exist.")
             elif choice == "3": 
+                print("Trig identities are equations that involve trigonometic functions, these values ike sine,cosine or tan are ALWAYS true. The values help you simplify an expression.
                 print("Some common trigonometric identities include:")
                 print("1. sin^2(x) + cos^2(x) = 1")
                 print("2. 1 + tan^2(x) = sec^2(x)")
@@ -349,3 +352,4 @@ elif subject == 'history':
             print("Engage with multiple sources to gain a well-rounded understanding of historical topics.") 
 
             
+
