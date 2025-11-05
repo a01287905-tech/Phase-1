@@ -167,6 +167,7 @@ elif subject == 'biology':
     print("5. Cell Structure and Function")
     print("6. DNA and Genetics")
     print("7. Tips")
+    print("8. Examples")
     print("Type 'quit' to exit.")
 
     while True: 
@@ -255,6 +256,32 @@ elif subject == 'biology':
     for tip in tips:
         print("- " + tip)   
 
+        elif choice == "8" 
+    def biology_exercise():
+    questions = [
+        {
+            "question": "What is the powerhouse of the cell? ",
+            "answer": "mitochondria"
+        },
+        {
+            "question": "What process do plants use to make their food? ",
+            "answer": "photosynthesis"
+        },
+        {
+            "question": "What carries genetic information in cells? ",
+            "answer": "dna"
+        }
+    ]
+    
+    question = random.choice(questions)
+    user_answer = input(question["question"]).lower()
+    
+    if user_answer == question["answer"]:
+        print("Correct! Great job! 🎉")
+    else:
+        print(f"Not quite. The correct answer is {question['answer']}.")
+
+
 elif subject == 'history':
     print("You chose History! Topic help coming soon.")
     print("Great! Let's start with a history question, choose a topic or history Tips.")
@@ -320,4 +347,5 @@ elif subject == 'history':
             print("Create timelines to visualize historical events and their relationships.")
             print("Use mnemonic devices to remember key dates and figures.")
             print("Engage with multiple sources to gain a well-rounded understanding of historical topics.") 
+
             
